@@ -1,0 +1,32 @@
+prefix-1: '&2» &3Friend System'
+prefix-2: '&3Friend System &2»'
+next-page-msg: '&2» &3Friend System &8&l-> &6Page %page% &8&l-> <cmd:/friend help
+    %next%>&3&nNext Page&r'
+message-splitter: '&c&m----------------------'
+help-command:
+- '     <suggest command:/fr help>&f/fr help <page>&r &8&l-> &eUsed to see help menu.
+    Type <cmd:/fr help all>&f/fr help all&r &eto see all of help commands.'
+- '     <suggest command:/fr add>&f/fr add <player>&r &8&l-> &eUsed to add friends.'
+- '     <suggest command:/fr cancel>&f/fr cancel <player>&r &8&l-> &eUsed to canceling
+    sent friend requests.'
+- '     <suggest command:/fr accept>&f/fr accept <player>&r &8&l-> &eUsed to accepting
+    friend request.'
+- '     <suggest command:/fr deny>&f/fr deny <player>&r &8&l-> &eUsed to dis-accepting
+    friend request.'
+- '     <suggest command:/fr remove>&f/fr remove <player>&r &8&l-> &eUsed to remove
+    friends.'
+- '     <suggest command:/fr list>&f/fr list&r &8&l-> &eUsed to see friends and friendship
+    requests.'
+- '     <suggest command:/fr msg>&f/fr msg <player> [<message>]&r &8&l-> &eUsed to
+    sending messages for your friends.'
+- '     <suggest command:/fr broadcast>&f/fr bc <message> &8&l-> &eUsed to sending
+    a message for all online friends of you.'
+- '     <suggest command:/fr block>&f/fr block <player> &8&l-> &eUsed to block/unblock
+    player-argument.'
+- '     <suggest command:/fr invite>&f/fr invite <player> &8&l-> &eUsed to invite
+    player-argument to you.'
+- '     <suggest command:/fr options>&f/fr options &8&l-> &eUsed to turn specific
+    personal system properties on and off. &8(&6Message reception etc.&8)&6.'
+config-reloaded: '%prefix% &6Config reloaded.'
+no-permission: '%prefix% &cI''m sorry, you don''t have required permission for this
+    command.'
